@@ -4,12 +4,14 @@ int b2 = InputData("Введите число b2: ");
 int k2 = InputData("Введите число k2: ");
 double x1 = 0;
 double x2 = 0;
+double x1ParallelCheck = k1 * (x1 + 1);
+double x2ParallelCheck = k2 * (x2 + 1);
 double y1 = k1 * x1 + b1;
 double y2 = k2 * x2 + b2;
-double y1Test = k1 * 0.1 + b1;
-double y2Test = k2 * 0.1 + b2;
+double y1ReduceDifferenceCheck = k1 * 0.1 + b1;
+double y2ReduceDifferenceCheck = k2 * 0.1 + b2;
 double div1 = y1 - y2;
-double div2 = y1Test - y2Test;
+double div2 = y1ReduceDifferenceCheck - y2ReduceDifferenceCheck;
 double calculateStep = 1;
 int calculateStepsCount = 6;
 
@@ -22,9 +24,9 @@ if(div2 < 0)
     div2 = div2 * -1;
 }
 
-if(y1 == y2)
+if(x1ParallelCheck == x2ParallelCheck)
 {
-    Console.WriteLine("Точка пересечения прямых на координате: (" + x1 + "; " + y1 + ")");
+    Console.WriteLine("Вы задали параллельные прямые");
 }
 else
 {
@@ -72,6 +74,9 @@ else
                 }
             }
         }
+        double xAns = Approximate(x1);
+        double yAns = Approximate(y1);
+        Console.WriteLine("Точка пересечения прямых на координате: (" + xAns + "; " + yAns + ")");
     }
     if(div1 > div2)
     {
@@ -117,12 +122,15 @@ else
                 }
             }
         }
+        double xAns = Approximate(x1);
+        double yAns = Approximate(y1);
+        Console.WriteLine("Точка пересечения прямых на координате: (" + xAns + "; " + yAns + ")");
     }
 }
 
-double xAns = Approximate(x1);
-double yAns = Approximate(y1);
-Console.WriteLine("Точка пересечения прямых на координате: (" + xAns + "; " + yAns + ")");
+//double xAns = Approximate(x1);
+//double yAns = Approximate(y1);
+//Console.WriteLine("Точка пересечения прямых на координате: (" + xAns + "; " + yAns + ")");
 
 int InputData(string output)
 {
