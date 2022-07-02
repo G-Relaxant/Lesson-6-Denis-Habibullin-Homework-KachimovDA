@@ -14,8 +14,7 @@ double differenceZero = y1 - y2;
 double differenceNextCheck = y1ReduceDifferenceCheck - y2ReduceDifferenceCheck;
 double calculateStep = 1;
 int calculateStepsCount = 6;
-// div1 is diffzero
-// div2 is diffnext
+
 if(differenceZero < 0)
 {
     differenceZero = differenceZero * -1;
