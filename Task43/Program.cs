@@ -159,10 +159,16 @@ double k1 = InputData("Введите число k1: ");
 double b2 = InputData("Введите число b2: ");
 double k2 = InputData("Введите число k2: ");
 
-double x = (b1 - b2) / (k2 - k1);
-double y = k1 * x + b1;
-
-Console.WriteLine("Точка пересечения прямых на координате: (" + x + "; " + y + ")");
+if(k1 == k2)
+{
+    Console.Write("Заданные прямые параллельны");
+}
+else
+{
+    double x = (b1 - b2) / (k2 - k1);
+    double y = k1 * x + b1;
+    Console.Write("Точка пересечения прямых на координате: (" + x + "; " + y + ")");
+}
 
 double InputData(string output)
 {
