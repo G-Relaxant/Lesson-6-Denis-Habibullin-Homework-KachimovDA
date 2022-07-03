@@ -10,18 +10,18 @@ double y1 = k1 * x1 + b1;
 double y2 = k2 * x2 + b2;
 double y1ReduceDifferenceCheck = k1 * 0.1 + b1;
 double y2ReduceDifferenceCheck = k2 * 0.1 + b2;
-double div1 = y1 - y2;
-double div2 = y1ReduceDifferenceCheck - y2ReduceDifferenceCheck;
+double differenceZero = y1 - y2;
+double differenceNextCheck = y1ReduceDifferenceCheck - y2ReduceDifferenceCheck;
 double calculateStep = 1;
 int calculateStepsCount = 6;
 
-if(div1 < 0)
+if(differenceZero < 0)
 {
-    div1 = div1 * -1;
+    differenceZero = differenceZero * -1;
 }
-if(div2 < 0)
+if(differenceNextCheck < 0)
 {
-    div2 = div2 * -1;
+    differenceNextCheck = differenceNextCheck * -1;
 }
 
 if(x1ParallelCheck == x2ParallelCheck)
@@ -30,7 +30,7 @@ if(x1ParallelCheck == x2ParallelCheck)
 }
 else
 {
-    if(div1 < div2)
+    if(differenceZero < differenceNextCheck)
     {  
         if(y1 < y2)
         {
@@ -78,7 +78,7 @@ else
         double yAns = Approximate(y1);
         Console.WriteLine("Точка пересечения прямых на координате: (" + xAns + "; " + yAns + ")");
     }
-    if(div1 > div2)
+    if(differenceZero > differenceNextCheck)
     {
         if(y1 < y2)
         {
@@ -128,9 +128,6 @@ else
     }
 }
 
-//double xAns = Approximate(x1);
-//double yAns = Approximate(y1);
-//Console.WriteLine("Точка пересечения прямых на координате: (" + xAns + "; " + yAns + ")");
 
 int InputData(string output)
 {

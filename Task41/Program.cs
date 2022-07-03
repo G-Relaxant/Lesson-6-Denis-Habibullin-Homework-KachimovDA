@@ -1,4 +1,5 @@
-﻿/*
+// Мой вариант
+
 Console.Write("Input numbers: ");
 string input  = Console.ReadLine();
 Console.WriteLine("Input data: " + input);
@@ -51,13 +52,13 @@ void PrintArray(int[] b)
             Console.WriteLine("]");
     }
 }
-*/
+
 
 
 
 
 // Вариант из 7 семинара
-
+/*
 Console.Write("Input numbers: ");
 string input  = Console.ReadLine();
 Console.WriteLine("Input data: " + input);
@@ -117,3 +118,4 @@ void PrintArray(int[] b)
             Console.WriteLine("]");
     }
 }
+*/
