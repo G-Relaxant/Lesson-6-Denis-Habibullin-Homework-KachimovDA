@@ -1,4 +1,6 @@
-﻿int b1 = InputData("Введите число b1: ");
+﻿// Мой вариант
+/*
+int b1 = InputData("Введите число b1: ");
 int k1 = InputData("Введите число k1: ");
 int b2 = InputData("Введите число b2: ");
 int k2 = InputData("Введите число k2: ");
@@ -30,8 +32,12 @@ if(x1ParallelCheck == x2ParallelCheck)
 }
 else
 {
-    if(differenceZero < differenceNextCheck)
+    if(differenceZero <= differenceNextCheck)
     {  
+        x1 = 0.1;
+        x2 = 0.1;
+        y1 = k1 * x1 + b1;
+        y2 = k2 * x2 + b2;
         if(y1 < y2)
         {
             for(int i = 0; i < calculateStepsCount; i++)
@@ -78,7 +84,7 @@ else
         double yAns = Approximate(y1);
         Console.WriteLine("Точка пересечения прямых на координате: (" + xAns + "; " + yAns + ")");
     }
-    if(differenceZero > differenceNextCheck)
+    if(differenceZero >= differenceNextCheck)
     {
         if(y1 < y2)
         {
@@ -139,4 +145,27 @@ double Approximate(double a)
 {
     a = Math.Round(a, 3);
     return a;
+}
+*/
+
+
+
+
+
+
+// Варинат из 7 семинара
+double b1 = InputData("Введите число b1: ");
+double k1 = InputData("Введите число k1: ");
+double b2 = InputData("Введите число b2: ");
+double k2 = InputData("Введите число k2: ");
+
+double x = (b1 - b2) / (k2 - k1);
+double y = k1 * x + b1;
+
+Console.WriteLine("Точка пересечения прямых на координате: (" + x + "; " + y + ")");
+
+double InputData(string output)
+{
+    Console.Write(output);
+    return Convert.ToInt32(Console.ReadLine());
 }

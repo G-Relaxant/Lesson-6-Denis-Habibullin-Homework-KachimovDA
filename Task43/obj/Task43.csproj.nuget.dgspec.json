@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\Lesson-6-Denis-Habibullin-Homework-KachimovDA\\Task43\\Task43.csproj": {}
+    "C:\\Users\\G1Sup\\Desktop\\Lesson-6-Denis-Habibullin-Homework-KachimovDA\\Task43\\Task43.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\Lesson-6-Denis-Habibullin-Homework-KachimovDA\\Task43\\Task43.csproj": {
+    "C:\\Users\\G1Sup\\Desktop\\Lesson-6-Denis-Habibullin-Homework-KachimovDA\\Task43\\Task43.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Lesson-6-Denis-Habibullin-Homework-KachimovDA\\Task43\\Task43.csproj",
+        "projectUniqueName": "C:\\Users\\G1Sup\\Desktop\\Lesson-6-Denis-Habibullin-Homework-KachimovDA\\Task43\\Task43.csproj",
         "projectName": "Task43",
-        "projectPath": "C:\\Users\\user\\Desktop\\Lesson-6-Denis-Habibullin-Homework-KachimovDA\\Task43\\Task43.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Lesson-6-Denis-Habibullin-Homework-KachimovDA\\Task43\\obj\\",
+        "projectPath": "C:\\Users\\G1Sup\\Desktop\\Lesson-6-Denis-Habibullin-Homework-KachimovDA\\Task43\\Task43.csproj",
+        "packagesPath": "C:\\Users\\G1Sup\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\G1Sup\\Desktop\\Lesson-6-Denis-Habibullin-Homework-KachimovDA\\Task43\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\G1Sup\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
