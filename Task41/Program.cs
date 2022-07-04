@@ -2,7 +2,7 @@
 
 Console.Write("Input numbers: ");
 string input  = Console.ReadLine();
-Console.WriteLine("Input data: " + input);
+Console.WriteLine("Inputed data: " + input);
 int countNumbers = 1;
 for(int i = 0; i < input.Length; i++)
 {
