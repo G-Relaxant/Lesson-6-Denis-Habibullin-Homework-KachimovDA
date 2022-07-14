@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\G1Sup\\Desktop\\Lesson-6-Denis-Habibullin-Homework-KachimovDA\\Task41\\Task41.csproj",
+      "projectUniqueName": "C:\\Users\\G1Sup\\Desktop\\дз\\Lesson-6-Denis-Habibullin-Homework-KachimovDA\\Task41\\Task41.csproj",
       "projectName": "Task41",
-      "projectPath": "C:\\Users\\G1Sup\\Desktop\\Lesson-6-Denis-Habibullin-Homework-KachimovDA\\Task41\\Task41.csproj",
+      "projectPath": "C:\\Users\\G1Sup\\Desktop\\дз\\Lesson-6-Denis-Habibullin-Homework-KachimovDA\\Task41\\Task41.csproj",
       "packagesPath": "C:\\Users\\G1Sup\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\G1Sup\\Desktop\\Lesson-6-Denis-Habibullin-Homework-KachimovDA\\Task41\\obj\\",
+      "outputPath": "C:\\Users\\G1Sup\\Desktop\\дз\\Lesson-6-Denis-Habibullin-Homework-KachimovDA\\Task41\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\G1Sup\\AppData\\Roaming\\NuGet\\NuGet.Config"
